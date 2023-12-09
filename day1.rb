@@ -40,4 +40,4 @@ class Day1 < Day
   end
 end
 
-Day1.new.run!
+Day1.run! if __FILE__ == $0
