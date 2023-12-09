@@ -27,7 +27,7 @@ class Day4 < Day
     cards.sum(&:points)
   end
   
-  def part_2
+  def p_art_2
     count_winning(cards).values.sum
   end
   
@@ -57,7 +57,7 @@ class Day4 < Day
 end
 
 
-Day4.new.run!
+Day4.run! if __FILE__ == $0
 
 # Day 4, Part 1: 24542
 # Day 4, Part 2: 8736438
